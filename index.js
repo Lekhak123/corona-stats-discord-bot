@@ -11,7 +11,7 @@ api.settings({
 
 
 
-let token = "ODgwNzM0NjMyMTY4MDA5NzQ4.YSimCw.yp1EcDeLdOZV1inYaJAKSbljKdg";
+let token = "";
 
 client.on("message", async (message) => {
     if (!message.content.toLowerCase().startsWith(">>covid") || message.author.bot) return;
